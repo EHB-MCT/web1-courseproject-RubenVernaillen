@@ -1,0 +1,19 @@
+.wrapper {
+	width: calc(100% - 20px);
+	height: 20px;
+	background-color: #070206;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+	position: fixed;
+	background-image: url(images/bg.png);
+	background-size: 500px;
+	background-repeat: repeat-x;
+}
+.image-lettertype {
+	height: 120px;
+}
+.body {
+	margin: 0;
+}
