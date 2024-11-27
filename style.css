@@ -7,14 +7,14 @@ body {
 }
 
 .wrapper {
-	width: calc(100%);
+	width: 100%;
 	height: 120px;
 	background-color: #070206;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
-	position: fixed;
+	position: relative;
 	background-image: url(images/bg.png);
 	background-size: 500px;
 	background-repeat: repeat-x;
@@ -39,4 +39,12 @@ a {
 a.pink {
 	background-color: #ef018d;
 	border: 5px solid #ef018d;
+}
+.me {
+	position: relative;
+	width: 100%;
+	background-color: blue;
+	height: 1000px;
+}
+.me img {
 }
