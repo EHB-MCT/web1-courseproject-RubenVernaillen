@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 body {
 	color: #fff;
 	font-family: "Bebas Neue";
 	margin: 0;
+	background-color: black;
 }
 
-.wrapper {
+.navigation {
 	width: 100%;
-	height: 120px;
-	background-color: #070206;
+	height: 80px;
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -19,16 +20,19 @@ body {
 	background-size: 500px;
 	background-repeat: repeat-x;
 }
-.image-lettertype {
-	height: 120px;
-}
-.wrapper ul {
+
+.navigation ul {
 	padding-right: 40px;
 }
-.wrapper li {
+.navigation li {
 	display: inline;
-	padding-right: 20px;
-	font-size: 25px;
+	padding-right: 30px;
+	font-size: 20px;
+}
+.navigation img {
+	padding-left: 20px;
+	padding-top: 40px;
+	height: 200px;
 }
 a {
 	border-radius: 5px;
@@ -40,11 +44,55 @@ a.pink {
 	background-color: #ef018d;
 	border: 5px solid #ef018d;
 }
-.me {
-	position: relative;
-	width: 100%;
-	background-color: blue;
-	height: 1000px;
+.background {
+	background-image: url(images/spray\ background\ jinx.jpg);
 }
-.me img {
+header {
+	height: 100vh;
+
+	background-image: url(images/jinx\ poging\ 2.png);
+	background-size: cover;
+	background-position: top right;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-left: 150px;
+}
+.intro {
+	width: 30%;
+}
+.intro-flex {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.Apearence {
+	position: relative;
+	margin-top: 296px;
+	margin-left: 0;
+	width: 100%;
+}
+.apear {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.top {
+	padding-top: 50px;
+	margin-left: 500px;
+}
+.lol {
+	width: 24%;
+	padding-bottom: 20px;
+}
+.arcane {
+	width: 24%;
+	padding-bottom: 20px;
+	padding-right: 200px;
+	padding-top: 50px;
 }
