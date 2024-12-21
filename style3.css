@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium&display=swap");
+
 body {
 	color: #fff;
-	font-family: "Bebas Neue";
+	font-family: "Oxanium";
 	margin: 0;
+	background-image: url(images/spray\ background\ jinx.jpg);
 }
 
 .navigation {
@@ -42,4 +45,129 @@ a {
 a.pink {
 	background-color: #ef018d;
 	border: 5px solid #ef018d;
+}
+
+.arsenal {
+	width: 100%;
+}
+.arsenal h1 {
+	padding-left: 700px;
+}
+.arsenal p {
+	margin-left: 400px;
+	margin-right: 400px;
+	background-color: black;
+}
+.meet {
+	margin-top: 75px;
+	margin-left: 100px;
+	margin-right: 1100px;
+	background-color: black;
+}
+.family {
+	padding-left: 50px;
+	padding-right: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.fishbones {
+	padding: 10px;
+	margin-right: 25px;
+	margin-top: 50px;
+	margin-left: 25px;
+	width: 45%;
+}
+.fishbones img {
+	margin-top: 20px;
+	width: 80%;
+}
+.tekst {
+	padding-left: 10px;
+	background-color: black;
+}
+
+.pow-pow {
+	padding: 10px;
+	margin-right: 25px;
+	margin-top: 50px;
+	margin-left: 25px;
+	width: 45%;
+}
+
+.pow-pow img {
+	margin-left: 200px;
+	width: 60%;
+}
+.zapper {
+	padding: 10px;
+	margin-right: 25px;
+	margin-top: 50px;
+	margin-left: 25px;
+	width: 45%;
+}
+.zapper img {
+	width: 60%;
+}
+.flame-chomper {
+	padding: 10px;
+	margin-right: 25px;
+	margin-top: 50px;
+	margin-left: 25px;
+	width: 45%;
+	margin-bottom: 100px;
+}
+.flame-chomper img {
+	margin-top: 50px;
+	margin-right: 200px;
+	width: 90%;
+}
+@media screen and (max-width: 768px) {
+	.navigation li {
+		font-size: 10px;
+	}
+	.navigation ul {
+		padding: 0px;
+	}
+	.arsenal h1 {
+		padding-left: 100px;
+	}
+	.arsenal p {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.meet {
+		margin: 10px;
+	}
+	.family {
+		padding: 0;
+	}
+	.fishbones {
+		padding: 0;
+		margin-left: 50px;
+		width: 100%;
+	}
+	.pow-pow {
+		padding: 0;
+		margin-left: 50px;
+		width: 100%;
+	}
+	.pow-pow img {
+		margin: 0;
+		width: 80%;
+	}
+	.zapper {
+		padding: 0;
+		margin-left: 50px;
+		width: 100%;
+	}
+	.flame-chomper {
+		padding: 0;
+		margin-left: 50px;
+		width: 100%;
+	}
+	.flame-chomper img {
+		margin: 0;
+		width: 100%;
+	}
 }

@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium&display=swap");
+
 body {
 	color: #fff;
-	font-family: "Bebas Neue";
+	font-family: "Oxanium";
 	margin: 0;
 	background-image: url(images/spray\ background\ jinx.jpg);
 }
@@ -47,14 +49,18 @@ a.pink {
 .Backstory {
 	width: 100%;
 }
-.h1 {
+.Backstory h1 {
 	margin-left: 700px;
-	background-color: green;
+	margin-right: 700px;
+	background-color: black;
 }
-.p1 {
+.Backstory p {
 	width: 35%;
-	padding-left: 500px;
+	margin-left: 500px;
+	margin-right: 500px;
+	background-color: black;
 }
+
 .all {
 	display: flex;
 	flex-wrap: wrap;
@@ -65,14 +71,15 @@ a.pink {
 
 .people {
 	padding: 10px;
-	margin-right: 0;
+	margin-right: 25px;
 	margin-top: 50px;
-	margin-left: 50px;
+	margin-left: 25px;
 	width: 28%;
 	background-color: black;
 }
-.preople img {
-	width: 100%;
+.people img {
+	width: 80%;
+	padding-left: 50px;
 }
 .me {
 	width: 100%;
@@ -82,12 +89,47 @@ a.pink {
 	width: 80%;
 }
 .dead {
-	margin-right: 0;
+	padding: 10px;
+	margin-right: 25px;
 	margin-top: 50px;
-	margin-left: 50px;
-	width: 30%;
+	margin-left: 25px;
+	width: 28%;
 	background-color: black;
 }
 .dead img {
+	padding-left: 50px;
 	width: 80%;
+}
+.red {
+	color: rgb(105, 0, 0);
+}
+@media screen and (max-width: 768px) {
+	.navigation li {
+		font-size: 10px;
+	}
+	.navigation ul {
+		padding: 0px;
+	}
+	.Backstory h1 {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+	.Backstory p {
+		margin-left: 50px;
+		margin-right: 50px;
+		width: 80%;
+	}
+	.people {
+		padding: 0;
+		margin: 10px;
+		width: 100%;
+	}
+	.me {
+		display: none;
+	}
+	.dead {
+		padding: 0;
+		margin: 10px;
+		width: 100%;
+	}
 }
