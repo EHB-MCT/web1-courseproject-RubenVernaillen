@@ -2,7 +2,6 @@ body {
 	color: #fff;
 	font-family: "Bebas Neue";
 	margin: 0;
-	background-image: url(images/spray\ background\ jinx.jpg);
 }
 
 .navigation {
@@ -43,41 +42,4 @@ a {
 a.pink {
 	background-color: #ef018d;
 	border: 5px solid #ef018d;
-}
-.Backstory {
-	margin-left: 700px;
-	margin-top: 50px;
-}
-.all {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-.people {
-	margin-right: 0;
-	margin-top: 50px;
-	margin-left: 50px;
-	width: 30%;
-}
-.preople img {
-	width: 100%;
-}
-.me {
-	width: 100%;
-	margin-left: 220px;
-}
-.me img {
-	width: 80%;
-}
-.dead {
-	margin-right: 0;
-	margin-top: 50px;
-	margin-left: 50px;
-	width: 30%;
-}
-.dead img {
-	width: 80%;
 }
