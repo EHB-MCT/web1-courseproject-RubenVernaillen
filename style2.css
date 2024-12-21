@@ -45,8 +45,15 @@ a.pink {
 	border: 5px solid #ef018d;
 }
 .Backstory {
+	width: 100%;
+}
+.h1 {
 	margin-left: 700px;
-	margin-top: 50px;
+	background-color: green;
+}
+.p1 {
+	width: 35%;
+	padding-left: 500px;
 }
 .all {
 	display: flex;
@@ -57,10 +64,12 @@ a.pink {
 }
 
 .people {
+	padding: 10px;
 	margin-right: 0;
 	margin-top: 50px;
 	margin-left: 50px;
-	width: 30%;
+	width: 28%;
+	background-color: black;
 }
 .preople img {
 	width: 100%;
@@ -77,6 +86,7 @@ a.pink {
 	margin-top: 50px;
 	margin-left: 50px;
 	width: 30%;
+	background-color: black;
 }
 .dead img {
 	width: 80%;
