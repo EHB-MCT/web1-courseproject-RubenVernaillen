@@ -101,7 +101,10 @@ a.pink {
 	width: 80%;
 }
 .red {
-	color: rgb(105, 0, 0);
+	animation-name: color;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
 }
 @media screen and (max-width: 768px) {
 	.navigation li {
@@ -131,5 +134,13 @@ a.pink {
 		padding: 0;
 		margin: 10px;
 		width: 100%;
+	}
+}
+@keyframes color {
+	from {
+		color: white;
+	}
+	to {
+		color: rgb(67, 0, 0);
 	}
 }

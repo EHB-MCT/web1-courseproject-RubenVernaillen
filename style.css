@@ -61,10 +61,17 @@ header {
 	width: 90%;
 	margin: 0 auto;
 	padding-top: 100px;
+
 	padding-left: 150px;
 }
 .intro {
 	width: 30%;
+}
+.intro img {
+	animation-name: jiggle;
+	animation-duration: 0.05s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
 }
 .intro p {
 	background-color: black;
@@ -144,5 +151,13 @@ header {
 	}
 	.arcane img {
 		width: 100%;
+	}
+}
+@keyframes jiggle {
+	from {
+		transform: (-1deg);
+	}
+	to {
+		transform: rotate(1deg);
 	}
 }

@@ -123,11 +123,11 @@ a.pink {
 	width: 90%;
 }
 @media screen and (max-width: 768px) {
-	.navigation li {
-		font-size: 10px;
-	}
 	.navigation ul {
 		padding: 0px;
+	}
+	.navigation li {
+		font-size: 10px;
 	}
 	.arsenal h1 {
 		padding-left: 100px;
